@@ -1,7 +1,8 @@
 {
   "framework": "mocha+chai",
   "src_files": [
-    "src/**/*.js",
-    "tests/**/*.js"
+    "build/app.js",
+    "tests/tests.js",
+    "test_bootstrap.js"
   ]
 }

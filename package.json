@@ -4,11 +4,13 @@
   "main": "src/main.js",
   "scripts": {
     "server": "node server.js",
-    "build": "webpack --config webpack.production.config.js",
+    "build-src": "webpack --config webpack.production.config.js",
+    "build-test": "webpack --config webpack.test.config.js",
+    "build-all": "npm run build-src && npm run build-test",
     "test": "testem"
   },
   "devDependencies": {
-    "webpack-dev-server": "^1.7.0"
+    "traceur": "0.0.91"
   },
   "dependencies": {
     "babel-core": "^5.4.7",
