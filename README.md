@@ -3,7 +3,7 @@
 
 
 After npm install you should modify your mochachairunner.mustache file:
-```javascript
+```html
 <!doctype html>
 <html>
 <head>
