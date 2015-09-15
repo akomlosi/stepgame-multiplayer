@@ -1,7 +1,7 @@
 var assert = chai.assert;
 
-import PlayerModel from "../../../src/modules/player/model/model";
 import PlayerController from "../../../src/modules/player/controller/controller";
+import PlayerModel from "../../../src/modules/player/model/model";
 
 suite('PlayerController tests', function() {
 	setup(function(){
